@@ -99,7 +99,7 @@ wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/GegeEmbrie
 sed -i 's/apache/nginx/g' /etc/php-fpm.d/www.conf
 chmod -R +rx /home/vps
 wget -O /home/vps/public_html/uptime.php "http://autoscript.kepalatupai.com/uptime.php1"
-wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/addons/index.html1"
+wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/DashSystem//autosshvpn/master/addons/index.html1"
 service php-fpm restart
 service nginx restart
 chkconfig php-fpm on
