@@ -40,7 +40,8 @@ rpm -Uvh remi-release-6.rpm
 
 OS=`uname -m`;
 if [ "$OS" == "x86_64" ]; then
-  wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+  #wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+  wget http://ftp.tu-chemnitz.de/pub/linux/dag/redhat/el6/en/i386/rpmforge/RPMS/rpmforge-release-0.5.3-1.el6.rf.i686.rpm  
   rpm -Uvh rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
 else
   wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm
