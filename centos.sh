@@ -174,7 +174,7 @@ screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300
 wget https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/file/squid.sh && bash squid.sh
 
 # Addons
-wget https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/addons/addons.sh && sh addons.sh
+#wget https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/addons/addons.sh && sh addons.sh
 sed -i 's/1000/500/g' /usr/bin/akun
 
 # OpenVPN
@@ -194,6 +194,7 @@ rm /root/debian.sh
 
 # Log
 clear
-wget https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/addons/details.sh && bash details.sh
+#wget https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/addons/details.sh && bash details.sh
+wget https://raw.githubusercontent.com/DashSystem/autosshvpn/master/addons/details.sh && bash details.sh
 rm details.sh
 history -c
