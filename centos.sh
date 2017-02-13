@@ -178,7 +178,7 @@ sed -i 's/1000/500/g' /usr/bin/akun
 
 # OpenVPN
 #wget https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/file/cenovpn.sh && bash cenovpn.sh
-Wget https://raw.githubusercontent.com/DashSystem/autosshvpn/blob/master/file/cenovpn.sh
+wget https://raw.githubusercontent.com/DashSystem/autosshvpn/master/file/cenovpn.sh
 # Finishing
 wget -O /etc/vpnfix.sh "https://raw.githubusercontent.com/GegeEmbrie/autosshvpn/master/file/vpnfix.sh"
 chmod 777 /etc/vpnfix.sh
